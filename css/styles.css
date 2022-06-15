@@ -1,0 +1,38 @@
+/* styles for allmaster */
+body {
+  font-size: 18px;
+}
+/*.my-body {
+  background-color: rgb(241, 241, 241);
+}
+.my-background {
+  background-color: white;
+}
+*/
+.my-container {
+  width: 100%;
+  padding-right: 13%;
+  padding-left: 13%;
+  margin-right: auto;
+  margin-left: auto;
+/*  border: 2px solid blue;*/
+}
+@media screen and (max-width: 992px) {
+  .my-container {
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .my-container {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+}
+
