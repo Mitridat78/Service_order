@@ -18,10 +18,10 @@
 </head>
 <body>
     <header>
-        <div class="my-container border-bottom shadow-sm">
-            <nav class="navbar navbar-expand-md justify-content-center">
+        <div class="container-fluid border-bottom shadow-sm">
+            <nav class="navbar navbar-expand-md justify-content-sm-between justify-content-center ml-0 ml-lg-5 ">
                 <a class="navbar-brand" href="#">Logo</a>
-                <div class="form-inline ml-3">
+                <div class="form-inline ml-0 ml-lg-0 ml-xl-5">
                     <select class="form-control" id="sel1">
                         <option>Сделать заказ</option>
                         <option>Строительные услуги</option>
@@ -30,27 +30,30 @@
                         <option>Работы по дому</option>
                     </select>
                 </div> 
-                <button class="navbar-toggler navbar-light d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                <button class="navbar-toggler navbar-light d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <form class="form-inline ml-3 mr-auto my-lg-0">
+                <div class="collapse navbar-collapse nav flex-row" id="collapsibleNavId">  
+                    <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-5 ml-lg-0 mr-auto my-md-0 my-lg-0">
                         <input class="form-control" type="text" placeholder="Что нужно сделать">
-                        <button class="btn btn-outline-success d-md-none d-sm-none d-none d-lg-none d-xl-inline mr-2 my-sm-0" type="submit">Найти специалиста</button>
-                        <button class="btn btn-outline-success d-xl-none my-2 my-sm-0" type="submit">Найти</button>
+                        <button class="btn btn-outline-success d-md-none d-sm-none d-none d-lg-none d-xl-inline mr-2 my-sm-0" type="submit">Найти</button>
+                        <button class="btn btn-outline-success d-xl-none my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">UA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">RU</a>
-                        </li>
-                    </ul>
-                    <span class="mr-3"><a href="#">Войти</a></span>
-                    <span class="btn btn-outline-success font-weight-bold">Стать специалистом</span>
+                    <div class="form-inline mr-md-1 mr-lg-4 ml-0">
+                        <select class="form-control" id="sel1">
+                            <option>UA</option>
+                            <option>EN</option>
+                            <option>RU</option>
+                        </select>
+                    </div> 
                     
+                    <div class="mr-0 mr-lg-5">
+                        <span class="mr-4 d-md-none d-sm-none d-none d-lg-none d-xl-inline"><a href="#">Войти</a></span>
+                        <span class="d-xl-none mr-4"><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></span>
+                        <span class="btn btn-outline-success font-weight-bold d-md-none d-sm-none d-none d-lg-none d-xl-inline">Стать специалистом</span>
+                        <span class="btn btn-outline-success d-xl-none"><i class="fa-solid fa-user"></i></span>
+                    </div>
                 </div> <!-- end div collapse -->
             </nav>
         </div> 
