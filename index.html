@@ -19,9 +19,9 @@
 <body>
     <header>
         <div class="container-fluid border-bottom shadow-sm">
-            <nav class="navbar navbar-expand-md justify-content-sm-between justify-content-center ml-0 ml-lg-5">
+            <nav class="navbar navbar-expand-md justify-content-sm-between justify-content-center ml-0 ml-lg-4">
                 <a class="navbar-brand" href="#">Logo</a>
-                <div class="form-inline ml-0 ml-lg-0 ml-xl-5">
+                <div class="form-inline ml-0 ml-lg-0 ml-xl-4">
                     <select class="form-control" id="sel1">
                         <option>Сделать заказ</option>
                         <option>Строительные услуги</option>
@@ -37,13 +37,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse nav flex-row justify-content-sm-between justify-content-center" id="collapsibleNavId">  
-                    <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-5 ml-lg-0 mr-4 mr-md-auto my-md-0 my-lg-0">
+                    <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-4 ml-lg-0 mr-4 mr-md-auto my-md-0 my-lg-0">
                         <input class="form-control d-none d-sm-inline" type="text" placeholder="Что нужно сделать">
                         <button class="btn btn-secondary d-md-none d-sm-none d-none d-lg-none d-xl-inline mr-2 my-sm-0" type="submit">Найти</button>
                         <button class="btn btn-secondary d-xl-none my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                     <div class="form-inline mr-4 mr-md-2 mr-lg-4 ml-0">
-                        <select class="form-control" id="sel1">
+                        <select class="form-control border-0" id="sel1">
                             <option>UA</option>
                             <option>EN</option>
                             <option>RU</option>
@@ -62,45 +62,67 @@
     </header>
     
     <div class="container my-img">
-        <h1 class="text-center text-white">Сервис заказа услуг</h1>
-        <p class="text-center text-white">Тысячи исполнителей ждут ваших заказов</p>
+        <h1 class="text-center text-white display-4 mb-5">Сервис заказа услуг</h1>
+        <p class="text-center text-white mb-5" style="font-size: 20px;">Тысячи исполнителей ждут ваших заказов</p>
         <div class="row no-gutters justify-content-center">
             <div class="col-lg-6">
-                <input class="form-control form-control-lg rounded-0" type="text" placeholder="Что нужно сделать">
+                <input class="form-control form-control-lg border border-secondary rounded-0" type="text" placeholder="Что нужно сделать">
             </div>
             <div class="col-lg-4">
-                <button class="btn btn-secondary btn-block btn-lg rounded-0 mt-2 mt-md-2 mt-lg-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Найти</button>
+                <button class="btn btn-secondary btn-block btn-lg border border-dark rounded-0 mt-2 mt-md-2 mt-lg-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Найти</button>
             </div>
+        </div> <!-- end row -->
+        <div class="row text-white text-center mt-5" style="font-size: 20px;">
+            <div class="col-lg-6 col-md-6 col-12 mb-3 mb-md-0">
+                <i class="fa-regular fa-circle-question align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Как это работает</span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <i class="fa-solid fa-grip-vertical align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Перечень услуг</span>
+            </div>
+        </div> <!-- end div row -->
+    </div> <!-- end div container img -->
 
-        </div>
-    </div>
     <div class="container">    
         <div class="row no-gutters mt-4 mb-4 text-muted text-center">
             <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                <i class="fa-solid fa-people-group"></i>
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-people-group" style="font-size: 2rem;"></i>
                 <p class="small mt-3">Фриланс</p>
+                </a>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                <i class="fa-solid fa-truck"></i>
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-truck" style="font-size: 2rem;"></i>
                 <p class="small mt-3">Доставка</p>
+                </a>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                <i class="fa-solid fa-pump-soap"></i>
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-pump-soap" style="font-size: 2rem;"></i>
                 <p class="small mt-3">Клининг</p>       
+                </a>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-screwdriver-wrench" style="font-size: 2rem;"></i>
                 <p class="small mt-3">Ремонт</p>    
+                </a>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <p class="small mt-3">Учеба</p>    
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-graduation-cap" style="font-size: 2rem;"></i>
+                <p class="small mt-3">Учеба</p>  
+                </a>  
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                <i class="fa-solid fa-tachograph-digital"></i>
+                <a class="text-muted" href="#">
+                <i class="fa-solid fa-tachograph-digital" style="font-size: 2rem;"></i>
                 <p class="small mt-3">Сайты</p>    
+                </a>
             </div>
         </div> <!-- end div row -->   
+        <hr>
+
         
     </div> <!-- end div container -->
     
