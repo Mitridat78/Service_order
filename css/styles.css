@@ -3,7 +3,7 @@ body {
   font-size: 18px;
 }
 .my-img {
-  background: url("../img/main-img1.jpg") center no-repeat;
+  background: url("../img/main-img2.jpg") center no-repeat;
   background-size: cover; /*сохраняем пропорции*/
   background-position: center center;
   padding-top: 128px;
