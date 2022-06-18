@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="css/normilize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/all.css" />
-    <title>Document</title>
+    <title>Сервис заказа услуг</title>
 </head>
 <body>
     <header>
         <div class="container-fluid border-bottom shadow-sm">
-            <nav class="navbar navbar-expand-md justify-content-sm-between justify-content-center ml-0 ml-lg-4">
+            <nav class="navbar navbar-expand-md justify-content-sm-between justify-content-center ml-0 ml-lg-4 mt-3 mb-3">
                 <a class="navbar-brand" href="#">Logo</a>
                 <div class="form-inline ml-0 ml-lg-0 ml-xl-4">
                     <select class="form-control" id="sel1">
@@ -74,10 +74,10 @@
         </div> <!-- end row -->
         <div class="row text-white text-center mt-5" style="font-size: 20px;">
             <div class="col-lg-6 col-md-6 col-12 mb-3 mb-md-0">
-                <i class="fa-regular fa-circle-question align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Как это работает</span>
+                <a href="#anchor2" class="white-link"><i class="fa-regular fa-circle-question align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Как это работает</span></a>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
-                <i class="fa-solid fa-grip-vertical align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Перечень услуг</span>
+                <a href="#anchor1" class="white-link"><i class="fa-solid fa-grip-vertical align-bottom" style="font-size: 2rem;"></i> <span class="align-baseline">Перечень услуг</span></a>
             </div>
         </div> <!-- end div row -->
     </div> <!-- end div container img -->
@@ -122,9 +122,9 @@
             </div>
         </div> <!-- end div row -->   
         <hr>
-        <div class="row ml-md-3">
+        <div class="row ml-md-3" id="anchor1">
             <div class="col-lg-4 col-sm-6">
-                <div class="card">
+                <div class="card border-0">
                     <div class="d-flex flex-row">
                         <i class="fa-solid fa-photo-film text-warning mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
@@ -144,7 +144,7 @@
             </div>
 
             <div class="col-lg-4 col-sm-6">
-                <div class="card">
+                <div class="card border-0">
                     <div class="d-flex flex-row">
                         <i class="fa-solid fa-hammer text-success mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
@@ -164,7 +164,7 @@
             </div>
 
             <div class="col-lg-4 col-sm-6">
-                <div class="card">
+                <div class="card border-0">
                     <div class="d-flex flex-row">
                         <i class="fa-solid fa-kit-medical text-danger mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
@@ -184,7 +184,7 @@
             </div>
 
             <div class="col-lg-4 col-sm-6">
-                <div class="card">
+                <div class="card border-0">
                     <div class="d-flex flex-row">
                         <i class="fa-solid fa-screwdriver-wrench mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
@@ -202,6 +202,25 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="card border-0">
+                    <div class="d-flex flex-row">
+                        <i class="fa-brands fa-wordpress-simple text-primary mt-4" style="font-size: 2rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Сайты</h4>
+                            <div class="small">Фронтенд</div>
+                            <div class="small">Бэкенд</div>
+                            <div class="small">Лендингы</div>
+                            <div class="small">Сайт-визитка</div>
+                            <div class="small">Интернет-магазин</div>
+                            <div class="small">Корпоративный сайт</div>
+                            <div class="small">Новостной сайт</div>
+                            <div class="small">Блог</div>
+                            <div class="small">Другие услуги</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div> <!-- end div row -->
 
@@ -209,8 +228,8 @@
         <hr>
 
 <!--        <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-4 ml-lg-0 mr-4 mr-md-auto my-md-0 my-lg-0">-->
-    
-        <div class="row no-gutters justify-content-center">
+        <h3 class="text-center mt-3">Создать заявку</h3>
+        <div class="row no-gutters justify-content-center mb-5">
             <div class="col-lg-4 col-md-6">
                 <input class="form-control mt-2" type="text" placeholder="Что нужно сделать">            
             </div>
@@ -230,14 +249,65 @@
                 <button class="btn btn-secondary btn-block mt-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Найти</button>
                 <!--<button class="btn btn-secondary d-xl-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>-->
             </div>
-        </div>
+        </div> <!-- end div row -->
         <hr>
+
+        <h3 class="text-center mt-5" id="anchor2">Как это работает?</h3>
+        <div class="row text-center mt-5 mb-5">
+            <div class="col-md-4 text-success mb-3 mb-md-0">
+                <i class="fa-regular fa-folder" style="font-size: 2rem;"></i>
+                <p>Создайте заявку на услугу</p>
+            </div>
+            <div class="col-md-4 text-primary mb-3 mb-md-0">
+                <i class="fa-solid fa-person-circle-check" style="font-size: 2rem;"></i>
+                <p>Выбирите исполнителя</p>
+            </div>
+            <div class="col-md-4 text-warning mb-3 mb-md-0">
+                <i class="fa-solid fa-folder-plus" style="font-size: 2rem;"></i>
+                <p>Оставьте отзыв и закройте заявку</p>
+            </div>
+        </div>
         
     </div> <!-- end div container -->
     
     
-    <footer>
-
+    <footer style="background-color: grey; color: white;">
+        <div class="container">
+            <div class="row ml-auto small">
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">Как это работает?</li>
+                        <li class="mb-2">Бизнес-партнерам</li>
+                        <li class="mb-2">Контакты</li>
+                        <li class="mb-2">Наши партнеры</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">Как зарегистрироваться?</li>
+                        <li class="mb-2">Как заказать услугу?</li>
+                        <li class="mb-2">Как стать исполнителем?</li>
+                        <li class="mb-2">Помощь</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">FAQ (вопросы и ответы)</li>
+                        <li class="mb-2">Политика конфиденциальности</li>
+                        <li class="mb-2">Поддержка</li>
+                        <li class="mb-2">Публичная оферта</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2">Пн - Пт: с 9-00 до 19-00</li>
+                        <li class="mb-2">Сб - Вс: с 10-00 до 17-00</li>
+                        <li class="mb-2">г. Киев</li>
+                        <li class="mb-2">Степана Бандеры, 28</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
     
     <!-- for bootstrap -->
