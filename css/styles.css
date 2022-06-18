@@ -13,8 +13,9 @@ a, a:visited, a:focus, a:active, a:hover {
   text-decoration: none;
   color: black;
 }
-/*.green-link:hover {
+/*.green-link:visited, .green-link:focus, .green-link:active, .green-link:hover {
   color: green;
+  text-decoration: none;
 }
 */
 /*.my-body {

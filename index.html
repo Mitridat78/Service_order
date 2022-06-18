@@ -51,7 +51,7 @@
                     </div> 
                     
                     <div class="mr-0 mr-lg-5">
-                        <span class="mr-4 mr-md-2 d-md-none d-sm-none d-none d-lg-none d-xl-inline"><a href="#">Войти</a></span>
+                        <span class="mr-4 mr-md-2 d-md-none d-sm-none d-none d-lg-none d-xl-inline"><a class="black-link" href="#">Войти</a></span>
                         <span class="d-xl-none mr-4 mr-md-2"><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></span>
                         <span class="btn btn-secondary d-md-none d-sm-none d-none d-lg-none d-xl-inline">Стать специалистом</span>
                         <span class="btn btn-secondary d-xl-none"><i class="fa-solid fa-user"></i></span>
@@ -123,27 +123,29 @@
         </div> <!-- end div row -->   
         <hr>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="card align-items-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="card align-items-lg-center">
                     <div class="d-flex flex-row">
-                        <img class="mt-3" style="height: 30px; width:30px" src="./img/master.png" alt="">
+                        <i class="fa-solid fa-photo-film text-warning mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
+                            <h4 class="card-title">Фото, видео услуги</h4>
+                            <div class="small">Монтаж видео</div>
+                            <div class="small">Обработка фото</div>
+                            <div class="small">Проведение съемок</div>
+                            <div class="small">Оцифровка фото</div>
+                            <div class="small">Оцифровка видео</div>
+                            <div class="small">Свадебная съемка</div>
+                            <div class="small">Студийная съемка</div>
+                            <div class="small">Выпускной</div>
+                            <div class="small">Другие услуги</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="card align-items-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="card align-items-lg-center">
                     <div class="d-flex flex-row">
-                        <!--<img class="mt-3" style="height: 30px; width:30px" src="./img/master.png" alt="">-->
                         <i class="fa-solid fa-hammer text-success mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
                             <h4 class="card-title">Строительные работы</h4>
@@ -154,29 +156,62 @@
                             <div class="small">Кладка кафеля</div>
                             <div class="small">Поклейка обоев</div>
                             <div class="small">Укладка ламината</div>
+                            <div class="small">Установка заборов</div>
+                            <div class="small">Другие работы</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="card align-items-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="card align-items-lg-center">
                     <div class="d-flex flex-row">
-                        <img class="mt-3" style="height: 30px; width:30px" src="./img/master.png" alt="">
+                        <i class="fa-solid fa-kit-medical text-danger mt-4" style="font-size: 2rem;"></i>
                         <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
-                            <div>Текст</div>
+                            <h4 class="card-title">Красота и здоровье</h4>
+                            <div class="small">Медицина</div>
+                            <div class="small">Мануальная терапия</div>
+                            <div class="small">Массаж</div>
+                            <div class="small">Брови</div>
+                            <div class="small">Ресницы</div>
+                            <div class="small">Стрижка</div>
+                            <div class="small">Покраска</div>
+                            <div class="small">Маникюр</div>
+                            <div class="small">Другие услуги</div>
                         </div>
                     </div>
                 </div>
             </div>
 
+        </div> <!-- end div row -->
+        <hr>
+
+<!--        <form class="form-inline my-sm-2 my-2 ml-0 ml-xl-4 ml-lg-0 mr-4 mr-md-auto my-md-0 my-lg-0">-->
+        <div class="row no-gutters justify-content-center">
+            <div class="col-lg-4">
+                <input class="form-control d-none d-sm-inline" type="text" placeholder="Что нужно сделать">            
+            </div>
+            <div class="col-lg-2">
+                <select class="form-control" id="sel1">
+                    <option>Ваш город</option>
+                    <option>Киев</option>
+                    <option>Запорожье</option>
+                    <option>Днепр</option>
+                    <option>Харьков</option>
+                    <option>Кропивницкий</option>
+                    <option>Полтава</option>
+                </select>
+            </div>
+        
+            <div class="col-lg-3">
+                <button class="btn btn-secondary d-md-none d-sm-none d-none d-lg-none d-xl-inline" type="submit">Найти</button>
+                <button class="btn btn-secondary d-xl-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
         </div>
+        <hr>
+
+            
+<!--        </form>-->
         
     </div> <!-- end div container -->
     
